@@ -14,7 +14,7 @@ def novoPedido():
     cur.execute("INSERT INTO pedidos (name, email, description) VALUES (?, ?, ?)", (name, email, description))
     con.commit()
 
-    return jsonify({"status": "success"})
+    return jsonify({"ID": cur.lastrowid})
 
 @app.route('/pedidos', methods=['GET'])
 def pedidos():
