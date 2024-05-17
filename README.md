@@ -23,11 +23,11 @@ Existe um aequivo chamado `Insomnia.json` que possui uma collection para testar 
 
 ## Endpoints construidos
 
-`POST http://127.0.0.1:8000/novo`: Salva nova informação
-`GET http://127.0.0.1:8000/pedidos`: Retorna todos os pedidos registrados
-`GET http://127.0.0.1:8000/pedidos/<id>`: Retorna pedido por ID de salvamento
-`PUT http://127.0.0.1:8000/pedidos/<id>`: Edita pedido por ID de salvamento
-`DELETE http://127.0.0.1:8000/pedidos/<id>`: Deleta pedido por ID de salvamento
+- `POST http://127.0.0.1:8000/novo`: Salva nova informação
+- `GET http://127.0.0.1:8000/pedidos`: Retorna todos os pedidos registrados
+- `GET http://127.0.0.1:8000/pedidos/<id>`: Retorna pedido por ID de salvamento
+- `PUT http://127.0.0.1:8000/pedidos/<id>`: Edita pedido por ID de salvamento
+- `DELETE http://127.0.0.1:8000/pedidos/<id>`: Deleta pedido por ID de salvamento
 
 ### Modelo JSON
 
