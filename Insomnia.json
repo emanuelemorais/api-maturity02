@@ -1,0 +1,204 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-05-17T13:43:57.765Z",
+    "__export_source": "insomnia.desktop.app:v9.2.0",
+    "resources": [
+        {
+            "_id": "req_36067bc8cd6444b4aeea505727b5265a",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715952990698,
+            "created": 1715952975574,
+            "url": "http://127.0.0.1:8000/pedidos/1",
+            "name": "Delete Pedido By ID",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715952975574,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "parentId": null,
+            "modified": 1715952820017,
+            "created": 1715952820017,
+            "name": "Insomina-Maturity02",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_63d23abf4b704000b3202829ff9f4df5",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715952967291,
+            "created": 1715952929714,
+            "url": "http://127.0.0.1:8000/pedidos/2",
+            "name": "Edit Pedido By ID",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"manu2\",\n  \"email\": \"manu@email.com\",\n  \"description\": \"meu pedido!\"\n}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715952929714,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6fc6b042d5ae45e586cc0b42872969a1",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715953380557,
+            "created": 1715952899833,
+            "url": "http://127.0.0.1:8000/pedidos/1",
+            "name": "Get pedido by ID",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715952899833,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_04e7e265e492474ea2ec0aa1d1869263",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715952894037,
+            "created": 1715952848799,
+            "url": "http://127.0.0.1:8000/novo",
+            "name": "Post new pedido",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"name\": \"manu\",\n  \"email\": \"manu@email.com\",\n  \"description\": \"meu pedido!\"\n}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715952848799,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_828d21f4ebc549c28dc158751e3aef18",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715952886789,
+            "created": 1715952831763,
+            "url": "http://127.0.0.1:8000/pedidos",
+            "name": "Get all pedidos",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1715952831763,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_458eae98900ebe17181f51dcaf3e56e911a52e29",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715952820019,
+            "created": 1715952820019,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1715952820019,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_458eae98900ebe17181f51dcaf3e56e911a52e29",
+            "parentId": "wrk_3ff9477fe4864729b06742153a6cdbba",
+            "modified": 1715952820020,
+            "created": 1715952820020,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
