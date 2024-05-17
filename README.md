@@ -33,7 +33,7 @@ Existe um aequivo chamado `Insomnia.json` que possui uma collection para testar 
 
 ```
 {
-	"name": <nome>,
+  "name": <nome>,
   "email": <email>,
   "description": <descrição>"
 }
